@@ -1,17 +1,17 @@
 public enum Value {
-    AS(1,"AS"),
-    TWO(2,"TWO"),
-    THREE(3,"THREE"),
-    FOUR(4,"FOUR"),
-    FIVE(5,"FIVE"),
-    SIX(6,"SIX"),
-    SEVEN(7,"SEVEN"),
-    EIGHT(8,"EIGHT"),
-    NINE(9,"NINE"),
-    TEN(10,"TEN"),
-    JACK(10,"JACK"),
-    QUEEN(10,"QUEEN"),
-    KING(10,"KING");
+    AS(1,"1"),
+    TWO(2,"2"),
+    THREE(3,"3"),
+    FOUR(4,"4"),
+    FIVE(5,"5"),
+    SIX(6,"6"),
+    SEVEN(7,"7"),
+    EIGHT(8,"8"),
+    NINE(9,"9"),
+    TEN(10,"10"),
+    JACK(10,"J"),
+    QUEEN(10,"Q"),
+    KING(10,"K");
     
     private String symbole;
     

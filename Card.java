@@ -8,22 +8,22 @@ public class Card {
     }
     
     public String toString () {
-        return null;};
+        return this.value.getSymbole() + this.color.getSymbole() + "";
+    }
     
     public String getColorSymbole () {
-        return null;
+        return this.color.getSymbole();
     }
     
     public String getColorName () {
-        return null;
+        return this.color.name();
     }
     
     public String getValueSymbole () {
-        return null;
+        return this.value.getSymbole();
     }
 
     public int getPoints () {
-        return 0;
-        
+        return this.value.getPoints();
     }
 }
